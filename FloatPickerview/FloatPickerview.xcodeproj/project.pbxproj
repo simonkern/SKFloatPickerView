@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6486908616148BFE0070882B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6486908516148BFE0070882B /* UIKit.framework */; };
+		6486908816148BFE0070882B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6486908716148BFE0070882B /* Foundation.framework */; };
+		6486908A16148BFE0070882B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6486908916148BFE0070882B /* CoreGraphics.framework */; };
+		6486909016148BFE0070882B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6486908E16148BFE0070882B /* InfoPlist.strings */; };
+		6486909216148BFE0070882B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6486909116148BFE0070882B /* main.m */; };
+		6486909616148BFE0070882B /* SKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6486909516148BFE0070882B /* SKAppDelegate.m */; };
+		6486909816148BFE0070882B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 6486909716148BFE0070882B /* Default.png */; };
+		6486909A16148BFE0070882B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6486909916148BFE0070882B /* Default@2x.png */; };
+		6486909C16148BFE0070882B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6486909B16148BFE0070882B /* Default-568h@2x.png */; };
+		6486909F16148BFE0070882B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6486909D16148BFE0070882B /* MainStoryboard.storyboard */; };
+		648690A216148BFE0070882B /* SKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 648690A116148BFE0070882B /* SKViewController.m */; };
+		648690AA16148BFE0070882B /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 648690A916148BFE0070882B /* SenTestingKit.framework */; };
+		648690AB16148BFE0070882B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6486908516148BFE0070882B /* UIKit.framework */; };
+		648690AC16148BFE0070882B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6486908716148BFE0070882B /* Foundation.framework */; };
+		648690B416148BFE0070882B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 648690B216148BFE0070882B /* InfoPlist.strings */; };
+		648690B716148BFE0070882B /* FloatPickerviewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 648690B616148BFE0070882B /* FloatPickerviewTests.m */; };
+		648690C216148C2D0070882B /* SKFloatPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 648690C116148C2D0070882B /* SKFloatPickerView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		648690AD16148BFE0070882B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6486907816148BFD0070882B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6486908016148BFE0070882B;
+			remoteInfo = FloatPickerview;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6486908116148BFE0070882B /* FloatPickerview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FloatPickerview.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6486908516148BFE0070882B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6486908716148BFE0070882B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6486908916148BFE0070882B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6486908D16148BFE0070882B /* FloatPickerview-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FloatPickerview-Info.plist"; sourceTree = "<group>"; };
+		6486908F16148BFE0070882B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6486909116148BFE0070882B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6486909316148BFE0070882B /* FloatPickerview-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FloatPickerview-Prefix.pch"; sourceTree = "<group>"; };
+		6486909416148BFE0070882B /* SKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SKAppDelegate.h; path = FloatPickerview/SKAppDelegate.h; sourceTree = "<group>"; };
+		6486909516148BFE0070882B /* SKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SKAppDelegate.m; path = FloatPickerview/SKAppDelegate.m; sourceTree = "<group>"; };
+		6486909716148BFE0070882B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		6486909916148BFE0070882B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		6486909B16148BFE0070882B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		6486909E16148BFE0070882B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		648690A016148BFE0070882B /* SKViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SKViewController.h; path = FloatPickerview/SKViewController.h; sourceTree = "<group>"; };
+		648690A116148BFE0070882B /* SKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SKViewController.m; path = FloatPickerview/SKViewController.m; sourceTree = "<group>"; };
+		648690A816148BFE0070882B /* FloatPickerviewTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FloatPickerviewTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		648690A916148BFE0070882B /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		648690B116148BFE0070882B /* FloatPickerviewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FloatPickerviewTests-Info.plist"; sourceTree = "<group>"; };
+		648690B316148BFE0070882B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		648690B516148BFE0070882B /* FloatPickerviewTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FloatPickerviewTests.h; sourceTree = "<group>"; };
+		648690B616148BFE0070882B /* FloatPickerviewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FloatPickerviewTests.m; sourceTree = "<group>"; };
+		648690C016148C2D0070882B /* SKFloatPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKFloatPickerView.h; sourceTree = "<group>"; };
+		648690C116148C2D0070882B /* SKFloatPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKFloatPickerView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6486907E16148BFE0070882B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6486908616148BFE0070882B /* UIKit.framework in Frameworks */,
+				6486908816148BFE0070882B /* Foundation.framework in Frameworks */,
+				6486908A16148BFE0070882B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		648690A416148BFE0070882B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				648690AA16148BFE0070882B /* SenTestingKit.framework in Frameworks */,
+				648690AB16148BFE0070882B /* UIKit.framework in Frameworks */,
+				648690AC16148BFE0070882B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6486907616148BFD0070882B = {
+			isa = PBXGroup;
+			children = (
+				6486908B16148BFE0070882B /* FloatPickerview */,
+				648690AF16148BFE0070882B /* FloatPickerviewTests */,
+				6486908416148BFE0070882B /* Frameworks */,
+				6486908216148BFE0070882B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6486908216148BFE0070882B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6486908116148BFE0070882B /* FloatPickerview.app */,
+				648690A816148BFE0070882B /* FloatPickerviewTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6486908416148BFE0070882B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6486908516148BFE0070882B /* UIKit.framework */,
+				6486908716148BFE0070882B /* Foundation.framework */,
+				6486908916148BFE0070882B /* CoreGraphics.framework */,
+				648690A916148BFE0070882B /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6486908B16148BFE0070882B /* FloatPickerview */ = {
+			isa = PBXGroup;
+			children = (
+				648690C016148C2D0070882B /* SKFloatPickerView.h */,
+				648690C116148C2D0070882B /* SKFloatPickerView.m */,
+				648690C31614922A0070882B /* Demo */,
+				6486908C16148BFE0070882B /* Supporting Files */,
+			);
+			path = FloatPickerview;
+			sourceTree = "<group>";
+		};
+		6486908C16148BFE0070882B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6486908D16148BFE0070882B /* FloatPickerview-Info.plist */,
+				6486908E16148BFE0070882B /* InfoPlist.strings */,
+				6486909116148BFE0070882B /* main.m */,
+				6486909316148BFE0070882B /* FloatPickerview-Prefix.pch */,
+				6486909716148BFE0070882B /* Default.png */,
+				6486909916148BFE0070882B /* Default@2x.png */,
+				6486909B16148BFE0070882B /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		648690AF16148BFE0070882B /* FloatPickerviewTests */ = {
+			isa = PBXGroup;
+			children = (
+				648690B516148BFE0070882B /* FloatPickerviewTests.h */,
+				648690B616148BFE0070882B /* FloatPickerviewTests.m */,
+				648690B016148BFE0070882B /* Supporting Files */,
+			);
+			path = FloatPickerviewTests;
+			sourceTree = "<group>";
+		};
+		648690B016148BFE0070882B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				648690B116148BFE0070882B /* FloatPickerviewTests-Info.plist */,
+				648690B216148BFE0070882B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		648690C31614922A0070882B /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				6486909416148BFE0070882B /* SKAppDelegate.h */,
+				6486909516148BFE0070882B /* SKAppDelegate.m */,
+				6486909D16148BFE0070882B /* MainStoryboard.storyboard */,
+				648690A016148BFE0070882B /* SKViewController.h */,
+				648690A116148BFE0070882B /* SKViewController.m */,
+			);
+			name = Demo;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6486908016148BFE0070882B /* FloatPickerview */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 648690BA16148BFE0070882B /* Build configuration list for PBXNativeTarget "FloatPickerview" */;
+			buildPhases = (
+				6486907D16148BFE0070882B /* Sources */,
+				6486907E16148BFE0070882B /* Frameworks */,
+				6486907F16148BFE0070882B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FloatPickerview;
+			productName = FloatPickerview;
+			productReference = 6486908116148BFE0070882B /* FloatPickerview.app */;
+			productType = "com.apple.product-type.application";
+		};
+		648690A716148BFE0070882B /* FloatPickerviewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 648690BD16148BFE0070882B /* Build configuration list for PBXNativeTarget "FloatPickerviewTests" */;
+			buildPhases = (
+				648690A316148BFE0070882B /* Sources */,
+				648690A416148BFE0070882B /* Frameworks */,
+				648690A516148BFE0070882B /* Resources */,
+				648690A616148BFE0070882B /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				648690AE16148BFE0070882B /* PBXTargetDependency */,
+			);
+			name = FloatPickerviewTests;
+			productName = FloatPickerviewTests;
+			productReference = 648690A816148BFE0070882B /* FloatPickerviewTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6486907816148BFD0070882B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SK;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Simon Kern";
+			};
+			buildConfigurationList = 6486907B16148BFD0070882B /* Build configuration list for PBXProject "FloatPickerview" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6486907616148BFD0070882B;
+			productRefGroup = 6486908216148BFE0070882B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6486908016148BFE0070882B /* FloatPickerview */,
+				648690A716148BFE0070882B /* FloatPickerviewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6486907F16148BFE0070882B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6486909016148BFE0070882B /* InfoPlist.strings in Resources */,
+				6486909816148BFE0070882B /* Default.png in Resources */,
+				6486909A16148BFE0070882B /* Default@2x.png in Resources */,
+				6486909C16148BFE0070882B /* Default-568h@2x.png in Resources */,
+				6486909F16148BFE0070882B /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		648690A516148BFE0070882B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				648690B416148BFE0070882B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		648690A616148BFE0070882B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6486907D16148BFE0070882B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6486909216148BFE0070882B /* main.m in Sources */,
+				6486909616148BFE0070882B /* SKAppDelegate.m in Sources */,
+				648690A216148BFE0070882B /* SKViewController.m in Sources */,
+				648690C216148C2D0070882B /* SKFloatPickerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		648690A316148BFE0070882B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				648690B716148BFE0070882B /* FloatPickerviewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		648690AE16148BFE0070882B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6486908016148BFE0070882B /* FloatPickerview */;
+			targetProxy = 648690AD16148BFE0070882B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6486908E16148BFE0070882B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6486908F16148BFE0070882B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6486909D16148BFE0070882B /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6486909E16148BFE0070882B /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			path = FloatPickerview;
+			sourceTree = "<group>";
+		};
+		648690B216148BFE0070882B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				648690B316148BFE0070882B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		648690B816148BFE0070882B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		648690B916148BFE0070882B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		648690BB16148BFE0070882B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FloatPickerview/FloatPickerview-Prefix.pch";
+				INFOPLIST_FILE = "FloatPickerview/FloatPickerview-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		648690BC16148BFE0070882B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FloatPickerview/FloatPickerview-Prefix.pch";
+				INFOPLIST_FILE = "FloatPickerview/FloatPickerview-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		648690BE16148BFE0070882B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FloatPickerview.app/FloatPickerview";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FloatPickerview/FloatPickerview-Prefix.pch";
+				INFOPLIST_FILE = "FloatPickerviewTests/FloatPickerviewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		648690BF16148BFE0070882B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FloatPickerview.app/FloatPickerview";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FloatPickerview/FloatPickerview-Prefix.pch";
+				INFOPLIST_FILE = "FloatPickerviewTests/FloatPickerviewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6486907B16148BFD0070882B /* Build configuration list for PBXProject "FloatPickerview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				648690B816148BFE0070882B /* Debug */,
+				648690B916148BFE0070882B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		648690BA16148BFE0070882B /* Build configuration list for PBXNativeTarget "FloatPickerview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				648690BB16148BFE0070882B /* Debug */,
+				648690BC16148BFE0070882B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		648690BD16148BFE0070882B /* Build configuration list for PBXNativeTarget "FloatPickerviewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				648690BE16148BFE0070882B /* Debug */,
+				648690BF16148BFE0070882B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6486907816148BFD0070882B /* Project object */;
+}
