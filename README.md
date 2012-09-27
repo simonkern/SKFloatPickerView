@@ -15,10 +15,9 @@ Init SKFloatPickerView with the following command:
 		andNegativeNumbers:(BOOL)negativeNumbersAllowed</pre>
 
 set the pickerViews property <code> pickerViewDelegate </code> to wherever you implemented the <code>SKFloatPickerViewDelegate</code> protocol.
-
 Add SKFloatPickerView to your view as a subview or present it in UIActionSheet.
 
-Initialization example
+Init example
 =================
 <pre>
 	SKFloatPickerView *pickerView = [[SKFloatPickerView alloc]initWithInts:2 andDecimals:2 andNegativeNumbers:YES];
