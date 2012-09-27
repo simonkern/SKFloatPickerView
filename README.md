@@ -19,16 +19,15 @@ set the pickerViews property  <code> pickerViewDelegate </code> to wherever you 
 Add SKFloatPickerView to your view as a subview or present it in UIActionSheet.
 
 
-Example
+Initialization example
 =================
-
-Initialization:
 <pre>
 	SKFloatPickerView *pickerView = [[SKFloatPickerView alloc]initWithInts:2 andDecimals:2 andNegativeNumbers:YES];
 	pickerView.pickerViewDelegate = self;
 </pre>
 
-Delegate method:
+Delegate method example
+=================
 <pre>
 	- (void)pickerViewChangedValueTo:(float)newFloat
 	{
