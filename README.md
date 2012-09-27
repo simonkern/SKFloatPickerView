@@ -8,16 +8,15 @@ A subclass of UIPickerView that can be used for float input.
 Usage
 =================
 Add the  and header <code>SKFloatPickerView.h</code> and implementation <code>SKFlotPickerView.m</code> files to your project.
-Add the <code> SKFloatPickerViewDelegate</code> Protocol to your ViewController or wherever you want to handle the user-input.
+Add the <code>SKFloatPickerViewDelegate</code> Protocol to your ViewController or wherever you want to handle the user-input.
 	
 Init SKFloatPickerView with the following command:
 <pre> - (id)initWithInts:(int)aNumberOfIntegers andDecimals:(int)aNumberOfDecimals
 		andNegativeNumbers:(BOOL)negativeNumbersAllowed</pre>
 
-set the pickerViews property  <code> pickerViewDelegate </code> to wherever you implemented the <code><SKFloatPickerViewDelegate></code> protocol.
+set the pickerViews property <code> pickerViewDelegate </code> to wherever you implemented the <code>SKFloatPickerViewDelegate</code> protocol.
 
 Add SKFloatPickerView to your view as a subview or present it in UIActionSheet.
-
 
 Initialization example
 =================
