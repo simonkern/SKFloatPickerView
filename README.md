@@ -17,12 +17,15 @@ Init SKFloatPickerView with the following command:
 set the pickerViews property <code> pickerViewDelegate </code> to wherever you implemented the <code>SKFloatPickerViewDelegate</code> protocol.
 Add SKFloatPickerView to your view as a subview or present it in UIActionSheet.
 
-Init example
+
+How to use? - example
 =================
 <pre>
 	SKFloatPickerView *pickerView = [[SKFloatPickerView alloc]initWithInts:2 andDecimals:2 andNegativeNumbers:YES];
 	pickerView.pickerViewDelegate = self;
+	[self.view.addsubview:pickerView];
 </pre>
+
 
 Delegate method example
 =================
